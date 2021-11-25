@@ -1,0 +1,251 @@
+
+body{
+
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+color: #24292e;
+}
+
+li{
+  list-style: none;
+}
+
+#header{
+  width: 60%;
+  margin: 125px auto;
+}
+
+.header-inside{
+  display: flex;
+  line-height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left img{
+  min-width: 125px;
+  min-height: 30px;
+}
+
+.header-right{
+font-size: 14px;
+align-items: center;
+}
+
+.header-right ul{
+  display: flex;
+  justify-content: center;
+}
+
+.header-right i{
+  line-height: 10px;
+}
+
+
+.header-right li{
+  padding-right: 30px;
+}
+
+.header-right li:last-child{
+  padding-right: 0;
+}
+
+main img{
+  width: 100%;
+   max-width: 1920px;
+   height: 420px;
+   object-fit: cover;
+}
+
+#contents{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 130px;
+}
+
+#heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 65px;
+}
+
+.name{
+  margin-bottom: 45px;
+}
+
+.profile {
+  margin-top: 35px;
+}
+
+#top{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+
+#top img{
+  width: 100%;
+  height: 195px;
+object-fit: cover;
+
+}
+
+#top li{
+  margin-right: 35px;
+  margin-bottom: 15px;
+}
+
+#top li:last-child{
+  margin-right: 0;
+}
+
+dl{
+border-top: solid 1px  #c8c8c8;
+}
+
+dt{
+  float:left;
+  width: 15%;
+  margin-right: 10%
+}
+
+dd{
+width: auto;
+}
+
+dt,dd{
+  border-bottom: solid 1px  #c8c8c8;
+  padding: 10px 0;
+  font-size:14px;
+  height: 50px;
+  line-height: 50px;
+}
+
+
+.form span{
+ display:flex;
+}
+
+.form p{
+  font-weight: normal;
+  font-size: 14px;
+  width: 15%;
+}
+
+textarea{
+  border-color: #c8c8c8;
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+
+.form input{
+  margin: auto;
+}
+
+
+input{
+  color: white;
+  background-color:#24292e;
+  padding: 15px 85px;
+  cursor: pointer;
+  display:block;
+  border: solid 1px #24292e;
+}
+
+input:hover{
+  background: #fff;
+  color: #24292e;
+}
+
+
+footer{
+ width: 100%;
+ height:35px;
+ background-color: #24292e;
+}
+
+footer p{
+ color:white;
+ text-align: center;
+ align-items:center;
+ font-size: 10px;
+ line-height: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+#header{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-inside{
+  display:block;
+}
+
+.left{
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+
+.header-right li{
+  margin-right: 20px;
+  padding-right: 0;
+}
+
+#contents{
+  width: 100%;
+  margin-bottom: 130px;
+}
+
+.images ul{
+  flex-direction: column;
+  margin-right: 0px;
+}
+
+.images img{
+  width: 100%;
+}
+
+#top li{
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+#top li img{
+  height:295px;
+}
+
+dt{
+  padding-right: 30px;
+}
+.form span{
+  display: block;
+}
+
+.form p{
+  margin: 0;
+}
+
+
+textarea{
+  width: 100%;
+}
+
+input{
+  margin-top: 30px;
+}
+
+}
